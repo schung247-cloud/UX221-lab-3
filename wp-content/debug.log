@@ -1,0 +1,47 @@
+[20-Jan-2026 02:19:26 UTC] PHP Warning:  strtotime(): Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php on line 1983
+[20-Jan-2026 02:19:26 UTC] PHP Warning:  strtotime(): Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php on line 1983
+[20-Jan-2026 02:19:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php:1983) in /workspaces/UX221-lab-3/.wordpress/wp-includes/pluggable.php on line 1531
+[20-Jan-2026 02:19:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php:1983) in /workspaces/UX221-lab-3/.wordpress/wp-includes/pluggable.php on line 1534
+[20-Jan-2026 02:19:43 UTC] PHP Warning:  strtotime(): Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php on line 1983
+[20-Jan-2026 02:19:43 UTC] PHP Warning:  strtotime(): Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php on line 1983
+[20-Jan-2026 02:19:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php:1983) in /workspaces/UX221-lab-3/.wordpress/wp-includes/pluggable.php on line 1531
+[20-Jan-2026 02:19:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/UX221-lab-3/.wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-translator.php:1983) in /workspaces/UX221-lab-3/.wordpress/wp-includes/pluggable.php on line 1534
+[20-Jan-2026 02:20:15 UTC] PHP Fatal error:  Uncaught DateRangeError: Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php:53
+Stack trace:
+#0 /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php(53): DateTime->getTimestamp()
+#1 /workspaces/UX221-lab-3/.wordpress/wp-includes/comment-template.php(618): mysql2date('Y/m/d', '0000-00-00 00:0...')
+#2 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(1049): get_comment_date('Y/m/d', Object(WP_Comment))
+#3 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1796): WP_Comments_List_Table->column_date(Object(WP_Comment))
+#4 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(677): WP_List_Table->single_row_columns(Object(WP_Comment))
+#5 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1726): WP_Comments_List_Table->single_row(Object(WP_Comment))
+#6 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1711): WP_List_Table->display_rows()
+#7 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(612): WP_List_Table->display_rows_or_placeholder()
+#8 /workspaces/UX221-lab-3/.wordpress/wp-admin/edit-comments.php(452): WP_Comments_List_Table->display()
+#9 {main}
+  thrown in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php on line 53
+[20-Jan-2026 02:20:21 UTC] PHP Fatal error:  Uncaught DateRangeError: Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php:53
+Stack trace:
+#0 /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php(53): DateTime->getTimestamp()
+#1 /workspaces/UX221-lab-3/.wordpress/wp-includes/comment-template.php(618): mysql2date('Y/m/d', '0000-00-00 00:0...')
+#2 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(1049): get_comment_date('Y/m/d', Object(WP_Comment))
+#3 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1796): WP_Comments_List_Table->column_date(Object(WP_Comment))
+#4 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(677): WP_List_Table->single_row_columns(Object(WP_Comment))
+#5 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1726): WP_Comments_List_Table->single_row(Object(WP_Comment))
+#6 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1711): WP_List_Table->display_rows()
+#7 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(612): WP_List_Table->display_rows_or_placeholder()
+#8 /workspaces/UX221-lab-3/.wordpress/wp-admin/edit-comments.php(452): WP_Comments_List_Table->display()
+#9 {main}
+  thrown in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php on line 53
+[20-Jan-2026 02:20:24 UTC] PHP Fatal error:  Uncaught DateRangeError: Epoch doesn't fit in a PHP integer in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php:53
+Stack trace:
+#0 /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php(53): DateTime->getTimestamp()
+#1 /workspaces/UX221-lab-3/.wordpress/wp-includes/comment-template.php(618): mysql2date('Y/m/d', '0000-00-00 00:0...')
+#2 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(1049): get_comment_date('Y/m/d', Object(WP_Comment))
+#3 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1796): WP_Comments_List_Table->column_date(Object(WP_Comment))
+#4 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(677): WP_List_Table->single_row_columns(Object(WP_Comment))
+#5 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1726): WP_Comments_List_Table->single_row(Object(WP_Comment))
+#6 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-list-table.php(1711): WP_List_Table->display_rows()
+#7 /workspaces/UX221-lab-3/.wordpress/wp-admin/includes/class-wp-comments-list-table.php(612): WP_List_Table->display_rows_or_placeholder()
+#8 /workspaces/UX221-lab-3/.wordpress/wp-admin/edit-comments.php(452): WP_Comments_List_Table->display()
+#9 {main}
+  thrown in /workspaces/UX221-lab-3/.wordpress/wp-includes/functions.php on line 53
